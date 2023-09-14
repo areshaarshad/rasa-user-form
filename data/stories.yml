@@ -1,0 +1,151 @@
+version: "3.1"
+
+stories:
+
+# - story: happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: user enter data
+#   steps:
+#   - intent: signup_data
+#   - action: user_data_form
+#   - active_loop: user_data_form
+#   - intent: inform
+#   - action: utter_ask_name
+#   - active_loop: user_data_form
+#   - intent: inform
+#   - action: utter_ask_email
+#   - active_loop: user_data_form
+#   - intent: inform
+#   - action: utter_ask_mobile_number
+#   - active_loop: user_data_form
+#   - intent: inform
+#   - action: utter_ask_dob
+#   - active_loop: user_data_form
+#   - intent: affirm
+#   - action: utter_confirm
+#   - action: user_data_form
+#   - active_loop: null
+#   - action: utter_submit
+#   - action: utter_slots_values 
+
+# - story: user confirms and submits data
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: inform
+#   - action: utter_ask_name
+#   - active_loop: user_data_form
+#   - intent: inform
+#   - action: utter_ask_email
+#   - active_loop: user_data_form
+#   - intent: inform
+#   - action: utter_ask_mobile_number
+#   - active_loop: user_data_form
+#   - intent: inform
+#   - action: utter_ask_dob
+#   - active_loop: user_data_form
+#   - intent: affirm
+#   - action: utter_confirm
+#   - action: user_data_form
+#   - active_loop: null
+#   - action: utter_submit
+#   - action: utter_slots_values
+
+#- story: user denies data submission
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: inform
+#  - action: utter_ask_first_name
+#  - active_loop: user_data_form
+#  - intent: inform
+#  - action: utter_ask_last_name
+#  - active_loop: user_data_form
+#  - intent: inform
+#  - action: utter_ask_email
+#  - active_loop: user_data_form
+#  - intent: inform
+#  - action: utter_ask_mobile_number
+#  - active_loop: user_data_form
+#  - intent: inform
+#  - action: utter_ask_dob
+#  - active_loop: user_data_form
+#  - intent: deny
+#  - action: utter_goodbye
+
+# - story: interactive_story_1
+#   steps:
+#   - intent: deny
+#   - action: utter_ask_signup_data
+#   - action: utter_ask_signup_data
+#   - action: utter_ask_name
+#   - intent: inform
+#     entities:
+#     - name: Emma
+#   - slot_was_set:
+#     - name: Emma
+#   - action: utter_ask_name
+#   - intent: inform
+#     entities:
+#     - name: John
+#   - slot_was_set:
+#     - name: John
+#   - action: utter_ask_name
+#   - action: utter_ask_mobile_number
+#   - intent: inform
+#     entities:
+#     - mobile_number: '12312345645'
+#   - slot_was_set:
+#     - mobile_number: '12312345645'
+#   - action: utter_ask_email
+#   - intent: inform
+#     entities:
+#     - email: youjohn@hotmail.coom
+#   - slot_was_set:
+#     - email: youjohn@hotmail.coom
+#   - action: utter_ask_dob
+#   - intent: inform
+#     entities:
+#     - dob: 20-10-2000
+#   - slot_was_set:
+#     - dob: 20-10-2000
+#   - action: utter_submit
+#   - intent: deny
+#   - intent: signup_data
+#   - action: user_data_form
+#   - active_loop: user_data_form
+#   - slot_was_set:
+#     - requested_slot: null
+#   - active_loop: null
+#   - action: utter_submit
+#   - action: user_data_form
+#   - active_loop: user_data_form
+#   - slot_was_set:
+#     - requested_slot: null
+#   - active_loop: null
+#   - action: utter_submit
+#   - action: utter_slots_values
+#   - intent: affirm
+#   - intent: deny
+#   - action: utter_happy
+#   - intent: inform
+#   - intent: affirm
+#   - action: utter_confirm
+#   - action: user_data_form
+#   - active_loop: user_data_form
+#   - slot_was_set:
+#     - requested_slot: null
+#   - active_loop: null
+#   - action: utter_submit
