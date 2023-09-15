@@ -21,7 +21,7 @@ Before running the chatbot, make sure you have the following prerequisites insta
 
 - `data/`: Contains training data for the Rasa chatbot.
 - `actions/`: Contains custom actions and logic for handling user data.
-- `config.py`: Configuration file for database and other settings.
+- `config.yml`: Configuration file for database and other settings.
 - `domain.yml`: Defines the chatbot's domain, including intents, entities, and responses.
 - `rules.yml`: Defines conversation rules for handling user interactions.
 - `nlu.yml`: Contains NLU training data for intent recognition.
